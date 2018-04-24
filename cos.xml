@@ -1,0 +1,2462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cos.xsl"?>
+<CSITcourses>
+  <course id="COL100">
+    <course_no>COL100</course_no>
+    <course_title>Introduction to Computer Science</course_title>
+    <course_category_CS1>Institute Core for CS1</course_category_CS1>
+    <course_category_CS51>Institute Core for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Concept of an algorithm; termination and correctness. Algorithms
+      to programs: specification, top-down development and stepwise
+      refinement. Iterative versus recursive style; problem solving using
+      a functional style; correctness issues in programming; efficiency
+      issues in programming; time and space measures. Structured style of
+      imperative programming; programming
+      in an imperative language using advanced features: procedures,
+      functions. Data types, representational invariants. Encapsulation,
+      abstractions, interaction, modularity. Identifying and exploiting
+      inherent concurrency.
+    </course_content>
+  </course>
+  
+  <course id="COL106">
+    <course_no>COL106</course_no>
+    <course_title>Data Structures and Algorithms</course_title>
+    <course_category_CS1>DC for CS1</course_category_CS1>
+    <course_category_CS51>DC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>5 credits (3-0-4)</course_credits>
+    <course_prereq><ir refid="COL100">COL100</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Introduction to object-oriented programming through stacks queues
+      and linked lists. Dictionaries; skip-lists, hashing, analysis of collision
+      resolution techniques. Trees, traversals, binary search trees, optimal
+      and average BSTs. Balanced BST: AVL Trees, 2-4 trees, red-black
+      trees, B-trees. Tries and suffix trees. Priority queues and binary
+      heaps. Sorting: merge, quick, radix, selection and heap sort, Graphs:
+      Breadth first search and connected components. Depth first search in
+      directed and undirected graphs.
+      Disjkra's algorithm, directed acyclic graphs and topological sort. Some
+      geometric data-structures.
+    </course_content>
+  </course>
+  
+  <course id="COL202">
+    <course_no>COL202</course_no>
+    <course_title>Discrete Mathematical Structures</course_title>
+    <course_category_CS1>DC for CS1</course_category_CS1>
+    <course_category_CS51>DC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>4 credits (3-1-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap><ir refid="MTL180">MTL180</ir></course_overlap>
+    <course_content>
+      Propositional logic, Predicate Calculus and Quantifiers; Proof Methods;
+      Sets, functions, relations, Cardinality, Infinity and Diagonalization;
+      Induction and Recursion; Modular Arithmetic, Euclid's Algorithm,
+      primes, Public Key Cryptography; Polynomials, finite fields and Secret
+      Sharing; Coding Theory: Error correcting codes, Hamming codes,
+      Hamming bound; Basic Counting - Pigeon hole principle; Advanced
+      Counting - recurrence relations, generating functions, inclusion-
+      exclusion; basic information theory, entropy, Kraft's inequality,
+      mutual information, lower bounds; Probability - sample space,
+      conditional probability, expectation, linearity of expectation, variance,
+      Markov, Chebychev, probabilistic methods; Graph Theory - Eulerian,
+      Hamiltonian and planar graphs, edge and vertex coloring.
+    </course_content>
+  </course>
+  
+  <course id="COL215">
+    <course_no>COL215</course_no>
+    <course_title>Digital Logic and System Design</course_title>
+    <course_category_CS1>DC for CS1</course_category_CS1>
+    <course_category_CS51>DC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>5 credits (3-0-4)</course_credits>
+    <course_prereq><ir refid="COL100">COL100</ir> AND
+	<ir refid="ELL100">ELL100</ir></course_prereq>
+    <course_overlap><ir refid="ELL201">ELL201</ir></course_overlap>
+    <course_content>
+      The course contents can be broadly divided into two parts. First part
+      deals with the basics of circuit design and includes topics like circuit
+      minimization, sequential circuit design and design of and using RTL
+      building blocks. The second part is focused on ASIC style system design
+      and introduces VHDL, FPGA as implementation technology, synthesis
+      steps as well as testing techniques. Course ends with introducing the
+      challenges of embedded design where software is becoming integral
+      to all devices. The laboratory assignments are a key component of
+      this course and requires students to design and implement circuits
+      and sub-systems on FPGA kits covering almost all the topics covered
+      in the lectures.
+    </course_content>
+  </course>
+  
+  <course id="COL216">
+    <course_no>COL216</course_no>
+    <course_title>Computer Architecture</course_title>
+    <course_category_CS1>DC for CS1</course_category_CS1>
+    <course_category_CS51>DC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq>ELL201</course_prereq>
+    <course_overlap>ELL305</course_overlap>
+    <course_content>
+      History of computers, Boolean logic and number systems, Assembly
+      language programming, ARM assembly language, Computer arithmetic,
+      Design of a basic processor, Microprogramming, Pipelining, Memory
+      system, Virtual memory, I/O protocols and devices, Multiprocessors.
+    </course_content>
+  </course>
+  
+  <course id="COL226">
+    <course_no>COL226</course_no>
+    <course_title>Programming Languages</course_title>
+    <course_category_CS1>DC for CS1</course_category_CS1>
+    <course_category_CS51>DC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>5 credits (3-0-4)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Value and state oriented paradigms. Translation. Notions of syntax
+      and semantics of programming languages; introduction to operational/
+      natural semantics of functional and imperative languages. Data
+      abstractions and control constructs; block-structure and scope,
+      principles of abstraction, qualification and correspondence; parameter
+      passing mechanisms; runtime structure and operating environment;
+      practical and implementation issues in run-time systems and
+      environment; abstract machines; features of functional and imperative
+      languages; the un-typed and simply-typed Lambda calculus, type
+      systems for programming languages including simple types and
+      polymorphism; objects; classes and inheritance in object-oriented
+      languages.
+      Interactive programming and interfaces.
+      The laboratory activities will involve building a variety of small
+      interpreters for core languages in various paradigms. Tools such as
+      lex and yacc will be introduced for front-end analysis.
+    </course_content>
+  </course>
+  
+  <course id="COP290">
+    <course_no>COP290</course_no>
+    <course_title>Design Practices</course_title>
+    <course_category_CS1>DC for CS1</course_category_CS1>
+    <course_category_CS51>DC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>3 credits (0-0-6)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The contents may differ each year depending on the instructor. The
+      course should involve 2-3 large programming projects done in groups
+      of 2-4.
+    </course_content>
+  </course>
+  
+  <course id="COD300">
+    <course_no>COD300</course_no>
+    <course_title>Design Project</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>2 credits (0-0-4)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Basic design methodology -- introduction to the steps involved,
+      Familiarization with software practices, tools and techniques, software
+      project involving conceptualization, design analysis, implementation
+      and testing using the tools and techniques learnt.
+    </course_content>
+  </course>
+  
+  <course id="COD310">
+    <course_no>COD310</course_no>
+    <course_title>Mini Project</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>3 credits (0-0-6)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Design / Fabrication / Implementation work under the guidance of a
+      faculty member. Prior to registration, a detailed plan of work should be
+      submitted by the student to the Head of the Department for approval.
+    </course_content>
+  </course>
+  
+  <course id="COR310">
+    <course_no>COR310</course_no>
+    <course_title>Professional Practices (CS)</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>2 credits (1-0-2)</course_credits>
+    <course_prereq>EC - 60</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The course would consist of talks by working professionals from
+      industry, government and research organizations. It may also include
+      site visits to various organizations.
+    </course_content>
+  </course>
+  
+  <course id="COS310">
+    <course_no>COS310</course_no>
+    <course_title>Independent Study (CS)</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>3 credits (0-3-0)</course_credits>
+    <course_prereq>EC - 60</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Research oriented activities or study of subjects outside regular course
+      offerings under the guidance of a faculty member. Prior to registration,
+      a detailed plan of work should be submitted by the student to the
+      Head of the Department for approval.
+    </course_content>
+  </course>
+  
+  <course id="COP315">
+    <course_no>COP315</course_no>
+    <course_title>Embedded System Design Project</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>4 credits (0-1-6)</course_credits>
+    <course_prereq><ir refid="COL215">COL215</ir>, <ir refid="COL216">COL216</ir> or equivalent courses</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Students working in small groups of four to six are expected to
+      deliver in one semester on an innovative solution for problems/
+      challenges that are typical to India and perhaps other developing
+      countries. The students would have to go through the full cycle of
+      specification, design and prototyping/building a concept demonstrator.
+      Key component of the assessment would be through a public
+      demonstration of their solution.
+      Learning to work in groups as well as planning and delivering a large
+      task are other expected learnings.
+    </course_content>
+  </course>
+  
+  <course id="COL331">
+    <course_no>COL331</course_no>
+    <course_title>Operating Systems</course_title>
+    <course_category_CS1>DC for CS1</course_category_CS1>
+    <course_category_CS51>DC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>5 credits (3-0-4)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir> AND
+	<ir refid="COP290">COP290</ir></course_prereq>
+    <course_overlap>ELL405</course_overlap>
+    <course_content>
+      Primary UNIX abstractions: threads, address spaces, filesystem,
+      devices, interprocess communication; Introduction to hardware
+      support for OS (e.g., discuss x86 architecture); Processes and Memory;
+      Address Translation; Interrupts and Exceptions; Context Switching;
+      Scheduling; Multiprocessors and Locking; Condition Variables,
+      Semaphores, Barriers, Message Passing, etc.; Filesystem semantics,
+      design and implementation; Filesystem Durability and Crash recovery;
+      Security and Access Control.
+    </course_content>
+  </course>
+  
+  <course id="COL333">
+    <course_no>COL333</course_no>
+    <course_title>Principles of Artificial Intelligence</course_title>
+    <course_category_CS1>DC for CS1</course_category_CS1>
+    <course_category_CS51>DC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir></course_prereq>
+    <course_overlap><ir refid="COL671">COL671</ir>, <ir refid="COL770">COL770</ir>, <ir refid="ELL789">ELL789</ir></course_overlap>
+    <course_content>
+      Philosophy of artificial intelligence, problem solving, search techniques,
+      constraint satisfaction, game playing (minimax, expectiminimax),
+      automated planning, knowledge representation and reasoning through
+      logic, knowledge representation and reasoning through fuzzy logic
+      and Bayesian networks, Markov decision processes, machine learning,
+      neural networks, reinforcement learning, soft computing, introduction
+      to natural language processing.
+    </course_content>
+  </course>
+  
+  <course id="COL334">
+    <course_no>COL334</course_no>
+    <course_title>Computer Networks</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir> AND
+	<ir refid="COL216">COL216</ir></course_prereq>
+    <course_overlap><ir refid="ELL402">ELL402</ir></course_overlap>
+    <course_content>
+      Students will be exposed to common network algorithms and protocols,
+      including physical layer modulation (analog AM/FM, digital ASK/FSK/
+      PSK), encoding (NRZ, Manchester, 4B/5B), link layer framing, error
+      control, medium access control (TDMA, FDMA, CSMA/CA, CSMA/
+      CD), bridging, SDN, addressing (IPv4/v6), name resolution (DNS),
+      routing (DV, LS, protocols RIP, OSPF, BGP), transport protocols
+      (TCP), congestion avoidance (window based AIMD), and application
+      design models (client-server, P2P, functioning of HTTP, SMTP,
+      IMAP). Programming assignments will be designed to test network
+      application design concepts, protocol design towards developing error
+      detection and correction methods, efficient network utilization, and
+      familiarization with basic tools such as ping, traceroute, wireshark.
+    </course_content>
+  </course>
+  
+  <course id="COL341">
+    <course_no>COL341</course_no>
+    <course_title>Machine Learning</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir>, <ir refid="MTL106">MTL106</ir></course_prereq>
+    <course_overlap><ir refid="ELL409">ELL409</ir>, <ir refid="ELL784">ELL784</ir></course_overlap>
+    <course_content>
+      Supervised Learning Algorithms: 1. Logistic Regression 2.Neural
+      Networks 3.Decision Trees 4.Nearest Neighbor 5. Support
+      Vector Machines 6. Naive Bayes. ML and MAP estimates. Bayes'
+      Optimal Classifier.Introduction to Graphical Models.Generative Vs.
+      Discriminative Models. Unsupervised learning algorithms: K-Means
+      clustering, Expectation Maximization, Gaussian Mixture Models. PCA
+      and Feature Selection, PAC Learnability, Reinforcement Learning.
+      Some application areas of machine learning e.g. Natural Language
+      Processing, Computer Vision, applications on the web. Introduction
+      to advanced topics such as Statistical Relational Learning.
+    </course_content>
+  </course>
+  
+  <course id="COL351">
+    <course_no>COL351</course_no>
+    <course_title>Analysis and Design of Algorithms</course_title>
+    <course_category_CS1>DC for CS1</course_category_CS1>
+    <course_category_CS51>DC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>4 credits (3-1-0)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir></course_prereq>
+    <course_overlap><ir refid="MTL342">MTL342</ir></course_overlap>
+    <course_content>
+      checking 2-edge, 2-node and strong connectivity using DFS. Strongly
+      connected components. Greedy algorithms, minimum spanning
+      trees (Prim/Kruskal), Union-find data structure. Matroids. Divide and
+      conquer algorithms. Polynomial multiplication, DFT and FFT. Dynamic
+      Programming, All pairs shortest paths (Bellman-Ford, Floyd Warshall).
+      s-t flows, ford-fulkerson, edmonds-karp, applications of maxflow
+      Intractability, NP-completeness, Polynomial time reductions. String
+      matching, KMP and Rabin-Karp. Universal hashing and applications.
+      Geometric algorithms like convex hulls, multidimensional data
+      structures, plane sweep paradigm.
+    </course_content>
+  </course>
+  
+  <course id="COL352">
+    <course_no>COL352</course_no>
+    <course_title>Introduction to Automata and Theory of Computation</course_title>
+    <course_category_CS1>DC for CS1</course_category_CS1>
+    <course_category_CS51>DC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL202">COL202</ir></course_prereq>
+    <course_overlap><ir refid="MTL383">MTL383</ir></course_overlap>
+    <course_content>
+      Regular Languages, Finite Automata, equivalence, minimization,
+      Myhill-Nerode Theorem, introduction to non-determinism, Context
+      free grammars, Pushdown automata, equivalence and applications.
+      Turing machines, Recursive and Recursively enumerable sets, non-
+      determinism, RAMs and equivalence, Universal Turing Machines,
+      undecidability, Rice's theorems for RE sets, Post machines, Basics of
+      Recursive function theory. Equivalence, Church's thesis, computational
+      complexity, space and time complexity of Turing Machines,
+      Relationships, Savage's theorem, Complexity classes, Complete
+      problems, NP-completeness, Cook-Levin theorem.
+    </course_content>
+  </course>
+  
+  <course id="COL362">
+    <course_no>COL362</course_no>
+    <course_title>Introduction to Database Management Systems</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir></course_prereq>
+    <course_overlap><ir refid="MTL710">MTL710</ir></course_overlap>
+    <course_content>
+      Data models (ER, relational models, constraints, normalization),
+      declarative querying (relational algebra, datalog, SQL), query
+      processing/optimization (basics of indexes, logical/physical query plans,
+      views) and transaction management (introduction to concurrency
+      control and recovery). Overview of XML data management, text
+      management, distributed data management.
+      Course project to build a web-based database application.
+    </course_content>
+  </course>
+  
+  <course id="COL380">
+    <course_no>COL380</course_no>
+    <course_title>Intro to Parallel and Distributed Programming</course_title>
+    <course_category_CS1>DC for CS1</course_category_CS1>
+    <course_category_CS51>DC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>3 credits (2-0-2)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir> AND
+	<ir refid="COL351">COL351</ir> AND
+	<ir refid="COL331">COL331</ir></course_prereq>
+    <course_overlap><ir refid="COL730">COL730</ir>, <ir refid="MTL765">MTL765</ir></course_overlap>
+    <course_content>
+      Concurrency, Consistency of state and memory, Parallel architecture,
+      Latency and throughput, Models of parallel computation, performance
+      metrics and speedup, Message-passing and Shared-memory
+      programming paradigms, Communication networks and primitives,
+      Concepts of Atomicity, Consensus, Conditions and Synchronization,
+      Security, Fault tolerance, Replication of state and memory.
+    </course_content>
+  </course>
+
+  <course id="COD490">
+    <course_no>COD490</course_no>
+    <course_title>B.tech. Project</course_title>
+    <course_category_CS1>DC for CS1</course_category_CS1>
+    <course_category_CS51></course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>6 credits (0-0-12)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+    </course_content>
+  </course>
+  
+  <course id="COD492">
+    <course_no>COD492</course_no>
+    <course_title>B.Tech Project Part-I</course_title>
+    <course_category_CS1>DC for CS1</course_category_CS1>
+    <course_category_CS51></course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>6 credits (0-0-12)</course_credits>
+    <course_prereq>EC 100</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      This project spans also the course COD494. Hence it is expected that
+      the problem specification and the milestones to be achieved in solving
+      the problem are clearly specified.
+    </course_content>
+  </course>
+  
+  <course id="COD494">
+    <course_no>COD494</course_no>
+    <course_title>B.Tech Project Part-II</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51></course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>8 credits (0-0-16)</course_credits>
+    <course_prereq>EC 100, <ir refid="COD492">COD492</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The student(s) who work on a project are expected to work towards
+      the goals and milestones set in COD492. At the end there would be a
+      demonstration of the solution and possible future work on the same
+      problem. A dissertation outlining the entire problem, including a survey
+      of literature and the various results obtained along with their solutions
+      is expected to be produced.
+    </course_content>
+  </course>
+  
+  <course id="COP701">
+    <course_no>COP701</course_no>
+    <course_title>Software Systems Laboratory</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51></course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PC for MCS</course_category_MCS>
+       <course_credits>3 credits (0-0-6)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The contents may differ each year depending on the instructor. The course should involve 2-3 large programming projects done in groups of 2-4. A set of three project oriented assignments which will be announced at the start of each semester with definite submission deadlines. The set of assignments will be designed to develop skills and familiarity with a majority of the following: make, configuration management tools, installation of software, archiving and creation of libraries, version control systems, documentation and literate programming systems, GUI creation, distributed state maintenance over a network, programming in different environments like desktop and handhelds, program parsing and compilation including usage of standard libraries like pthreads, numerical packages, XML and semi-structured data, simulation environments, testing and validation tools.
+    </course_content>
+  </course>
+  
+  <course id="COL702">
+    <course_no>COL702</course_no>
+    <course_title>Advanced Data Structures</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51></course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PC for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir> OR EQUIVALENT</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Review of basic data structures and their realization in object
+      oriented Environments. Dynamic Data structures: 2-3 trees, Redblack trees,
+      binary heaps, binomial and Fibonacci heaps, Skip lists, Universal
+      Hashing. Data structures for maintaining ranges, intervals and disjoint
+      sets with applications. B-trees. Tries and suffix trees. Priority queues
+      and binary heaps. Sorting: merge, quick, radix, selection and heap
+      sort, Graphs: Breadth first search and connected components. Depth
+      first search in directed and undirected graphs. Disjkra's algorithm,
+      Directed acyclic graphs and topological sort. Some geometric data-
+      structures. Basic algorithmic techniques like
+      dynamic programming and divide-and-conquer. Sorting algorithms
+      with analysis, integer sorting, selection. Graph algorithms like DFS
+      with applications, MSTs and shortest paths.
+    </course_content>
+  </course>
+  
+  <course id="COL703">
+    <course_no>COL703</course_no>
+    <course_title>Logic for Computer Science</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>PC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir> OR EQUIVALENT</course_prereq>
+    <course_overlap><ir refid="MTL747">MTL747</ir></course_overlap>
+    <course_content>
+      Review of the principle of mathematical induction; the principle
+      of structural induction; review of Boolean algebras; Syntax of
+      propositional formulas; Truth and the semantics of propositional
+      logic; Notions of satisfiability, validity, inconsistency; Deduction
+      systems for propositional logic; Completeness of deduction sytems;
+      First order logic (FOL) ; Proof theory for FOL; introduction to model
+      theory; completeness and compactness theorems; First order theories.
+      Programming exercises will include representation and evalution;
+      conversion to normal-forms; tautology checking; proof normalization;
+      resolution; unification; Skolemization, conversion to Horn-clauses;
+      binary-decision diagrams. Decidability, undecidability and complexity
+      results. Introduction to formal methods, temporal/modal logics.
+    </course_content>
+  </course>
+    
+  <course id="COL718">
+    <course_no>COL718</course_no>
+    <course_title>Architecture of High Performance Computers</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(AES) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL216">COL216</ir> OR EQUIVALENT</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Classification of parallel computing structures; Instruction level
+      parallelism - static and dynamic pipelining, improving branch
+      performance, superscalar and VLIW processors; High performance
+      memory system; Shared memory multiprocessors and cache
+      coherence; Multiprocessor interconnection networks; Performance
+      modelling; Issues in programming multiprocessors; Data parallel
+      architectures.
+    </course_content>
+  </course>
+  
+  <course id="COL719">
+    <course_no>COL719</course_no>
+    <course_title>Synthesis of Digital Systems</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(AES) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL215">COL215</ir> OR EQUIVALENT</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      After a basic overview of the VLSI design flow, hardware modelling
+      principles and hardware description using the VHDL language are
+      covered. This is followed by a study of the major steps involved in
+      behavioural synthesis: scheduling, allocation, and binding. This is
+      followed by register-transfer level synthesis, which includes retiming
+      and Finite State Machine encoding. Logic synthesis, consisting of
+      combinational logic optimisation and technology mapping, is covered
+      next. Popular chip architectures - standard cells and FPGA are
+      introduced. The course concludes with a brief overview of layout
+      synthesis topics: placement and routing.
+    </course_content>
+  </course>
+  
+  <course id="COL722">
+    <course_no>COL722</course_no>
+    <course_title>Intruduction to Compressed Sensing</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(ITA) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir> OR EQUIVALENT</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Sparsity, L1 minimization, Sparse regression, deterministic and
+      probabilistic approaches to compressed sensing, restricted isometry
+      property and its application in sparse recovery, robustness in the
+      presence of noise, algorithms for compressed sensing.
+      Applications in magnetic resonance imaging (MRI), applications in
+      analog-to-digital conversion, low-rank matrix recovery, applications
+      in image reconstruction.
+    </course_content>
+  </course>
+  
+  <course id="COL724">
+    <course_no>COL724</course_no>
+    <course_title>Advanced Computer Networks</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL334">COL334</ir> OR EQUIVALENT</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Review of the Internet architecture, layering; wired and wireless
+      MAC; intra- and inter-domain Internet routing, BGP, MPLS, MANETs;
+      error control and reliable delivery, ARQ, FEC, TCP; congestion and
+      flow control; QoS, scheduling; mobility, mobile IP, TCP and MAC
+      interactions, session persistence; multicast; Internet topology,
+      economic models of ISPs/CDNs/content providers; future directions.
+    </course_content>
+  </course>
+  
+  <course id="COL726">
+    <course_no>COL726</course_no>
+    <course_title>Numerical Algorithms</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>PC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(TH,GV and DAAI) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir> OR EQUIVALENT</course_prereq>
+    <course_overlap><ir refid="MTL704">MTL704</ir></course_overlap>
+    <course_content>
+      Number representation, fundamentals of error analysis, conditioning,
+      stability, polynomials and root finding, interpolation, singular value
+      decomposition and its applications, QR factorization, condition number,
+      least squares and regression, Gaussian elimination, eigenvalue
+      computations and applications, iterative methods, linear programming,
+      elements of convex optimization including steepest descent, conjugate
+      gradient, Newton's method.
+    </course_content>
+  </course>
+  
+  <course id="COL728">
+    <course_no>COL728</course_no>
+    <course_title>Compiler Design</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>4.5 credits (3-0-3)</course_credits>
+    <course_prereq><ir refid="COL226">COL226</ir>, <ir refid="COL216">COL216</ir> OR EQUIVALENT</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Compilers and translators; lexical and
+      syntactic analysis, top-down and bottom up parsing techniques;
+      internal form of source programs; semantic analysis, symbol tables,
+      error detection and recovery, code generation and optimization. Type
+      checking and static analysis. Static analysis formulated as fixpoint
+      of simultaneous semantic equations.  Data flow. Abstract
+      interpretation. Correctness issues in code optimizations. Algorithms
+      and implementation techniques for type- checking, code generation and
+      optimization. Students will design and implement translators, static
+      analysis, type-checking and optimization. This is a praxis-based
+      course. Students will use a variety of software tools and techniques
+      in implementing a complete compiler.
+    </course_content>
+  </course>
+  
+  <course id="COL729">
+    <course_no>COL729</course_no>
+    <course_title>Compiler Optimization</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>4.5 credits (3-0-3)</course_credits>
+    <course_prereq><ir refid="COL226">COL226</ir> AND
+	<ir refid="COL216">COL216</ir> OR EQUIVALENT</course_prereq>
+    <course_overlap><ir refid="COL728">COL728</ir> </course_overlap>
+    <course_content>
+      Program representation -- symbol
+      table, abstract syntax tree; Control flow analysis; Data flow
+      analysis; Static single assignment; Def-use and Use-def chains; Early
+      optimisations -- constant folding, algebraic simplifications, value
+      numbering, copy propagation, constant propagation; Redundancy
+      Elimination -- dead code elimination, loop invariant code motion,
+      common sub-expression elimination; Register Allocation; Scheduling --
+      branch delay slot scheduling, list scheduling, trace scheduling,
+      software pipelining; Optimizing for memory hierarchy -- code placement,
+      scalar replacement of arrays, register pipelining; Loop
+      transformations -- loop fission, loop fusion, loop permutation, loop
+      unrolling, loop tiling; Function inlining and tail recursion;
+      Dependence analysis; Just-in-time compilation; Garbage
+      collection. Laboratory component would involve getting familiar with
+      internal representations of compilers; profiling and performance evaluation;
+      and the design and implementation of novel compiler optimisations.
+    </course_content>
+  </course>
+  
+  <course id="COL730">
+    <course_no>COL730</course_no>
+    <course_title>Parallel Programming</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(TH/SS) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir>, <ir refid="COL331">COL331</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Parallel computer organization, Parallel performance analysis,
+      Scalability, High level Parallel programming models and framework,
+      Load distribution and scheduling, Throughput, Latency, Memory and
+      Data Organizations, Inter-process communication and synchronization,
+      Shared memory architecture, Memory consistency, Interconnection
+      network and routing, Distributed memory architecture, Distributed
+      shared memory, Parallel IO, Parallel graph algorithms, Parallel
+      Algorithm techniques: Searching, Sorting, Prefix operations, Pointer
+      Jumping, Divide-and-Conquer, Partitioning, Pipelining, Accelerated
+      Cascading, Symmetry Breaking, Synchronization (Locked/Lock-free).
+    </course_content>
+  </course>
+  
+  <course id="COL732">
+    <course_no>COL732</course_no>
+    <course_title>Virtualization and Cloud Computing</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL331">COL331</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Introduction to Virtualization and Cloud Computing; Binary Translation;
+      Hardware Virtualization; Memory Resource Management in Virtual
+      Machine Monitor; Application of Virtualization; Cloud-scale Data
+      Management and Processing; I/O Virtualization.
+    </course_content>
+  </course>
+  
+  <course id="COL733">
+    <course_no>COL733</course_no>
+    <course_title>Cloud Computing Technology Fundamentals</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL331">COL331</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Overview of Cloud Computing, Virtualisation of CPU, Memory and I/O
+      Devices; Storage Virtualisation and Software Defined Storage (SDS),
+      Software Defined Networks (SDN) and Network Virtualisation, Data
+      Centre Design and interconnection Networks, Cloud Architectures,
+      Public Cloud Platforms (Google App Engine, AWS,Azure), Cloud
+      Security and Trust Management, Open Source Clouds (Baadal, Open
+      Stack, Cloud Stack), Cloud Programming and Software Environments
+      (Hadoop, GFS, Map Reduce, NoSQL systems, Big Table, HBase, Libvirt,
+      OpenVswitch), Amazon (Iaas), Azure(PaaS), GAE (PaaS).
+    </course_content>
+  </course>
+  
+  <course id="COL740">
+    <course_no>COL740</course_no>
+    <course_title>Software Engineering</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir>, <ir refid="COL226">COL226</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Introduction to Software Engineering, Software Life Cycle models and
+      Processes, Requirement Engineering, System Models, Architectural
+      Design, Abstraction and Modularity, Structured Programming, Object-
+      oriented techniques, Design Patterns, Service Oriented Architecture,
+      User Interface Design, Verification and Validation, Reliability, Software
+      Evolution, Project Management and Risk Analysis, Software Quality
+      Management, Configuration Management,Software Metrics, Cost
+      Analysis and Estimation, Manpower Management, Organization and
+      Management of large Software Projects.
+    </course_content>
+  </course>
+  
+  <course id="COD745">
+    <course_no>COD745</course_no>
+    <course_title>Minor Project</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>    
+    <course_category_MCS></course_category_MCS>
+    <course_credits>3 credits (0-0-6)</course_credits>
+    <course_prereq>EC 75</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Research and development projects based on problems of
+      practical and theoretical interest. Evaluation done based on periodic
+      presentations, student seminars, written reports, and evaluation of
+      the developed system (if applicable).
+    </course_content>
+  </course>
+  
+  <course id="COP745">
+    <course_no>COP745</course_no>
+    <course_title>Digital System Design Laboratory</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51></course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(AES) for MCS. Core for JVL</course_category_MCS>
+    <course_credits>3 credits (0-0-6)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+    </course_content>
+  </course>
+  
+  <course id="COL750">
+    <course_no>COL750</course_no>
+    <course_title>Foundations of Automatic Verification</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL226">COL226</ir>,<ir refid="COL352">COL352</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      A selection from the following topics, and experiments with the
+      mentioned tools:
+      Review of first-order logic, syntax and semantics. Resolution theorem
+      proving. Binary Decision Diagrams (BDDs) and their use in representing
+      systems. (Programming exercises coding and using logic programming frameworks). Transition systems, automata and transducers. Buechi
+      and other automata on infinite words; Linear Time Temporal Logic
+      (LTL), and specifying properties of systems in LTL; the relationship
+      between temporal logic and automata on infinite words, LTL Model
+      checking (exercises using Spin or similar tools); Computational Tree
+      Logic (CTL and CTL*); CTL model checking (exercises); Process
+      calculi such as CSP and CCS. Notions of program equivalence --
+      traces, bisimulation and other notions. Hennessy-Milner Logic (HML)
+      and Mu calculus (exercises using tools such as CWB -- Concurrency
+      Work Bench). Symbolic model checking, exercises using tools such
+      as SMV. Sat-based model checking and Davis-Putnam procedure;
+      (exercises using tools such as nuSMV).
+      Possible additional topics
+      include: equational logic frameworks, real-time frameworks, reactive
+      frameworks, pi-calculus (exercises using tools such as the Mobility
+      Workbench), Tree automata and Weak Second-order Logic with k
+      successors (WSkS), (exercises using Mona or similar tools).
+    </course_content>
+  </course>
+  
+  <course id="COL751">
+    <course_no>COL751</course_no>
+    <course_title>Algorithmic Graph Theory</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL351">COL351</ir> OR Equivalent</course_prereq>
+    <course_overlap><ir refid="MTL468">MTL468</ir></course_overlap>
+    <course_content>
+      Algorithms for computing maximum s-t flows in graphs: augmenting
+      path, blocking flow, push-relabel, capacity scaling etc. Max-flow
+      min-cut theorem and its applications Algorithms for computing
+      min-cuts in graphs, structure of min-cuts. Min-cost flows and
+      applications: cycle cancelling algorithms, successive shortest paths,
+      strongly polynomial algorithms. Maximum matching in bipartite and
+      general graphs: Hall's theorem, Tutte's theorem, Gallai-Edmonds
+      decomposition. Weighted bipartite matching, Edmonds Algorithm for
+      Weighted Non-Bipartite Matching,T-joins and applications. Factor-
+      Critical Graphs, Ear Decompositions, Graph orientations, Splitting Off,
+      k-Connectivity Orientations and Augmentations, Arborescences and
+      Branchings, Edmonds therorem for disjoint arborescences. Planar
+      graphs, algorithms for checking planarity, planar-separator theorem
+      and its applications. Intersection graphs, perfect graphs: polyhedral
+      characterization, the strong perfect graph theorem, kinds of perfect
+      graphs and algorithms on them. Treewidth, algorithm for computing
+      tree width, algorithms on graphs with bounded tree width.
+    </course_content>
+  </course>
+  
+  <course id="COL752">
+    <course_no>COL752</course_no>
+    <course_title>Geometric Algorithms</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL351">COL351</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Geometric Fundamentals: Models of computation, lower bound
+      techniques, geometric primitives, geometric transforms Convex hulls:
+      Planar convex hulls, higher dimensional convex hulls, randomized,
+      output-sensitive, and dynamic algorithms, applications of convex hull,
+      Intersection detection: segment intersection, line sweep, map overlay,
+      halfspace intersection, polyhedra intersection, Geometric searching:
+      segment, interval, and priority-search trees, point location, persistent
+      data structure, fractional cascading, range searching, nearest-neighbor
+      searching Proximity problems: closest pair, Voronoi diagram, Delaunay
+      triangulation and their subgraphs, spanners, well separated pair
+      decomposition Arrangements: Arrangements of lines and hyperplanes,
+      sweep-line and incremental algorithms, lower envelopes, levels, and
+      zones, applications of arrangementsTriangulations: monotone and
+      simple polygon triangulations, point-set triangulations, optimization
+      criteria, Steiner triangulation, Delaunay refinementGeometric sampling:
+      random sampling and &#949;-nets, &#949;-approximation and discrepancy,
+      cuttings, coresets. Geometric optimization: linear programming, LP-
+      type problems, parametric searching, approximation techniques.
+      Implementation Issues : robust computing, perturbation techniques,
+      floating-point filters, rounding techniques.
+    </course_content>
+  </course>
+  
+  <course id="COL753">
+    <course_no>COL753</course_no>
+    <course_title>Complexity Theory</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL352">COL352</ir>, <ir refid="COL705">COL705</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Modeling computation (Finite state machines, Non-determinism, Turing
+      machines, class P etc.), NP and NP-completeness, Diagonalization
+      (Time hierarchy and Ladner's theorem), Space complexity (PSPACE,
+      NL, Savitch's theorem, Immerman-Szelepcsenyi theorem etc.),
+      Polynomial hierarchy, Boolean circuits (P/poly), Randomized classes
+      (RP, BPP, ZPP, Adleman's Theorem, G&#225;cs-Sipser-Lautemann Theorem),
+      Interactive proofs (Arthur-Merlin, IP=PSPACE), Cryptography (one-way
+      functions, pseudorandom generators, zero knowledge), PCP theorem
+      and hardness of approximation, Circuit lower bounds (Hastad's
+      switching lemma), Other topics (#P, Toda's theorem, Average-case
+      complexity, derandomization, pseudorandom construction).
+    </course_content>
+  </course>
+  
+  <course id="COL754">
+    <course_no>COL754</course_no>
+    <course_title>Approximation Algorithms</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL351">COL351</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      NP-hardness and approximation algorithms. Different kinds of
+      approximability.
+      Greedy algorithm and local search with applications in facility location,
+      TSP and scheduling. Dynamic programming with applications in
+      knapsack, Euclidean TSP, bin packing. Linear programming, duality
+      and rounding. Applications in facility location, Steiner tree and
+      bin packing. Randomized rounding with applications. Primal-dual
+      algorithms and applications in facility location and network design. Cuts
+      and metrics with applications to multi-commodity flow. Semi-definite
+      programming and applications: max-cut, graph coloring. Hardness
+      of approximation.
+    </course_content>
+  </course>
+  
+  <course id="COL756">
+    <course_no>COL756</course_no>
+    <course_title>Mathematical Programming</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL351">COL351</ir> OR Equivalent</course_prereq>
+    <course_overlap><ir refid="MTL103">MTL103</ir>,
+          <ir refid="MTL704">MTL704</ir>
+    </course_overlap>
+    <course_content>
+      Linear programming: introduction, geometry, duality, sensitivity
+      analysis. Simplex method, Large scale optimization, network simplex.
+      Ellipsoid method, problems with exponentially many constraints,
+      equivalence of optimization and separation. Convex sets and functions
+      -- cones, hyperplanes, norm balls, generalized inequalities and
+      convexity, perspective and conjugate functions. Convex optimization
+      problems -- quasi-convex, linear, quadratic, geometric, vector, semi-
+      definite. Duality -- Lagrange, geometric interpretation, optimality
+      conditions, sensitivity analysis. Applications to approximation, fitting,
+      statistical estimation, classification. Unconstrained minimization,
+      equality constrained minimization and interior point methods.
+      Integer Programming: formulations, complexity, duality. Lattices,
+      geometry, cutting plane and branch and bound methods. Mixed
+      integer optimization.
+    </course_content>
+  </course>
+  
+  <course id="COL757">
+    <course_no>COL757</course_no>
+    <course_title>Model Centric Algorithm Design</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH/ITA) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL351">COL351</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The RAM model and its limitations, Introduction to alternate
+      algorithmic models Parallel models like PRAM and Interconnection
+      networks; Basic problems like Sorting, Merging, Routing, Parallel Prefix
+      and applications, graph algorithms like BFS, Matching
+      Memory hierarchy models; Caching, Sorting, Merging, FFT, Permutation,
+      Lower bounds Data Structures - searching, Priority queues
+      Streaming Data models: Distinct items, frequent items, frequency
+      moments, estimating norms, clustering
+      On line algorithms: competitive ratio, list accessing, paging, k-server,
+      load-balancing, lower-bounds.
+    </course_content>
+  </course>
+  
+  <course id="COL758">
+    <course_no>COL758</course_no>
+    <course_title>Advanced Algorithms</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL351">COL351</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Advanced data structures: self-adjustment, persistence and
+      multidimensional trees. Randomized algorithms: Use of probabilistic
+      inequalities in analysis, Geometric algorithms: Point location, Convex
+      hulls and Voronoi diagrams, Arrangements applications using
+      examples. Graph algorithms: Matching and Flows. Approximation
+      algorithms: Use of Linear programming and primal dual, Local search
+      heuristics. Parallel algorithms: Basic techniques for sorting, seraching,
+      merging, list ranking in PRAMs and Interconnection networks.
+    </course_content>
+  </course>
+  
+  <course id="COL759">
+    <course_no>COL759</course_no>
+    <course_title>Cryptography and Computer Security</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL351">COL351</ir> AND
+  <ir refid="MTL106">MTL106</ir> OR Equivalent</course_prereq>
+    <course_overlap>
+           <ir refid="MAL730">MAL730</ir>
+    </course_overlap>
+    <course_content>
+      Part 1: Foundations: Perfect secrecy and its limitations, computational
+      security, pseudorandom generators and one time encryption,
+      pseudorandom functions, one way permutations, message
+      authentication and cryptographic hash functions.
+      Part 2: Basic Constructions and proofs: Some number theory,
+      symmetric key encryption, public key encryption, CPA and CCA security,
+      digital signatures, oblivious transfer, secure multiparty computation.
+      Part 3: Advanced Topics: Zero knowledge proofs, identity based
+      encryption, broadcast encryption, homomorphic encryption, lattice
+      based cryptography.
+    </course_content>
+  </course>
+  
+  <course id="COL760">
+    <course_no>COL760</course_no>
+    <course_title>Advanced Data Management</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(DAAI and ITA) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="CSL362">CSL362</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Storage and file structures, advanced query processing and
+      optimization for single server databases, distributed data management
+      (including distributed data storage, query processing and transaction
+      management), web-data management (including managing the web-
+      graph and implementation of web-search), big data systems.
+    </course_content>
+  </course>
+  
+  <course id="COL761">
+    <course_no>COL761</course_no>
+    <course_title>Data Mining</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(DAAI and ITA) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir> OR Equivalent</course_prereq>
+    <course_overlap>
+           <ir refid="MTL782">MTL782</ir>
+    </course_overlap>
+    <course_content>
+      Association rule-mining, FP-tree, Prefix-span, Multi-support rule mining, 
+      Frequent subgraph mining (gSpan and FSG), Clustering (Agglomerative clustering, 
+      k-means, k-medoid, DBSCAN, OPTICS, CURE, BFR, MCL). Data streams (FM sketch, 
+      Reservoir sampling, top k-counting), Anomaly detection (Density based techniques, 
+      chi-square tests, p-values), Influence maximization in social networks, 
+      SimRank, random walk with restarts, PageRank, HITS
+    </course_content>
+  </course>
+  
+
+  <course id="COL762">
+    <course_no>COL762</course_no>
+    <course_title>Database Implementation</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(DAAI and ITA) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL362">COL362</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Review of Relational Model, Algebra and SQL, File structures,
+      Constraints and Triggers, System Aspects of SQL, Data Storage,
+      Representing Data Elements, Index, Multi dimensional and Bit-map
+      Indexes, Hashing, Query Execution, Query Compiler.
+    </course_content>
+  </course>
+  
+  <course id="COL765">
+    <course_no>COL765</course_no>
+    <course_title>Intro to Logic and Functional Programming</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PC for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Introduction to declarative programming paradigms. The functional
+      style of programming, paradigms of developments of functional
+      programs, use of higher order functionals and pattern-matching.
+      Introduction to lambda calculus. Interpreters for functional languages
+      and abstract machines for lazy and eager lambda calculi, Types, type-
+      checking and their relationship to logic. Logic as a system for declarative
+      programming. The use of pattern-matching and programming of higher
+      order functions within a logic programming framework. Introduction
+      to symbolic processing. The use of resolution and theorem-proving
+      techniques in logic programming. The relationship between logic
+      programming and functional programming.
+    </course_content>
+  </course>
+  
+  <course id="COL768">
+    <course_no>COL768</course_no>
+    <course_title>Wireless Networks</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL334">COL334</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Radio signal propagation, advanced modulation and coding, medium
+      access techniques, self-configurable networks, mesh networks,
+      cognitive radio and dynamic spectrum access networks, TCP over
+      wireless, wireless security, emerging applications.
+    </course_content>
+  </course>
+  
+  <course id="COL770">
+    <course_no>COL770</course_no>
+    <course_title>Advanced Artificial Intelligence</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(DAAI and ITA) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir> OR Equivalent</course_prereq>
+    <course_overlap><ir refid="COL333">COL333</ir>,
+              <ir refid="COL770">COL770</ir>,
+              <ir refid="ELL789">ELL789</ir>
+    </course_overlap>
+    <course_content>
+      Philosophy of artificial intelligence, fundamental and advanced search
+      techniques (A*, local search, suboptimal heuristic search, search
+      in AND/OR graphs), constraint optimization, temporal reasoning,
+      knowledge representation and reasoning through propositional
+      and first order logic, modern game playing (UCT), planning under
+      uncertainty (Topological value iteration, LAO*, LRTDP), reinforcement
+      learning, introduction to robotics, introduction to probabilistic graphical
+      models (Bayesian networks, Hidden Markov models, Conditional
+      random fields), machine learning, introduction to information systems
+      (information retrieval, information extraction).
+    </course_content>
+  </course>
+  
+  <course id="COL772">
+    <course_no>COL772</course_no>
+    <course_title>Natural Language Processing</course_title>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(DAAI) for MCS</course_category_MCS>
+    <course_prereq><ir refid="COL106">COL106</ir> OR Equivalent</course_prereq>
+    <course_overlap>
+      <ir refid="MTL785">MTL785</ir>
+    </course_overlap>
+    <course_content>
+      NLP concepts: Tokenization, lemmatization, part of speech tagging,
+      noun phrase chunking, named entity recognition, coreference
+      resolution, parsing, information extraction, sentiment analysis,
+      question answering, text classification, document clustering, document
+      summarization, discourse, machine translation.
+      Machine learning concepts: Naive Bayes, Hidden Markov Models, EM,
+      Conditional Random Fields, MaxEnt Classifiers, Probabilistic Context
+      Free Grammars.
+    </course_content>
+  </course>
+  
+  <course id="COL774">
+    <course_no>COL774</course_no>
+    <course_title>Machine Learning</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(DAAI) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq>MTL106 OR Equivalent</course_prereq>
+    <course_overlap><ir refid="COL341">COL341</ir>,
+             <ir refid="ELL784,">ELL784</ir>,
+             <ir refid="ELL888">ELL888</ir>
+    </course_overlap>
+    <course_content>
+      Supervised learning algorithms: Linear and Logistic Regression,
+      Gradient Descent, Support Vector Machines, Kernels, Artificial Neural
+      Networks, Decision Trees, ML and MAP Estimates, K-Nearest Neighbor,
+      Naive Bayes, Introduction to Bayesian Networks. Unsupervised
+      learning algorithms: K-Means clustering, Gaussian Mixture Models,
+      Learning with Partially Observable Data (EM). Dimensionality Reduction
+      and Principal Component Analysis. Bias Variance Trade-off. Model
+      Selection and Feature Selection. Regularization. Learning Theory.
+      Introduction to Markov Decision Processes. Application to Information
+      Retrieval, NLP, Biology and Computer Vision. Advanced Topics.
+    </course_content>
+  </course>
+  
+  <course id="COL776">
+    <course_no>COL776</course_no>
+    <course_title>Learning Probabilistic Graphical Models</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(DAAI) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="MTL106">MTL106</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Basics: Introduction. Undirected and Directed Graphical Models.
+      Bayesian Networks. Markov Networks. Exponential Family Models.
+      Factor Graph Representation. Hidden Markov Models. Conditional
+      Random Fields. Triangulation and Chordal Graphs. Other Special
+      Cases: Chains, Trees. Inference: Variable Elimination (Sum Product and
+      Max-Product). Junction Tree Algorithm. Forward Backward Algorithm
+      (for HMMs). Loopy Belief Propagation. Markov Chain Monte Carlo.
+      Metropolis Hastings. Importance Sampling. Gibbs Sampling. Variational
+      Inference. Learning: Discriminative Vs. Generative Learning. Parameter
+      Estimation in Bayesian and Markov Networks. Structure Learning.
+      EM: Handling Missing Data. Applications in Vision, Web/IR, NLP and
+      Biology. Advanced Topics: Statistical Relational Learning, Markov
+      Logic Networks.
+    </course_content>
+  </course>
+  
+  <course id="COL780">
+    <course_no>COL780</course_no>
+    <course_title>Computer Vision</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(GV) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq>EC 80</course_prereq>
+    <course_overlap><ir refid="ELL793">ELL793</ir></course_overlap>
+    <course_content>
+      Camera models. Calibration, multi-views projective geometry and
+      invariants. Feature detection, correspondence and tracking. 3D
+      structure/motion estimation. Application of machine learning in object
+      detection and recognition, category discovery, scene and activity
+      interpretation.
+    </course_content>
+  </course>
+  
+  <course id="COL781">
+    <course_no>COL781</course_no>
+    <course_title>Computer Graphics</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(GV) for MCS</course_category_MCS>
+    <course_credits>4.5 credits (3-0-3)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir> OR Equivalent</course_prereq>
+    <course_overlap><ir refid="ELL792">ELL792</ir></course_overlap>
+    <course_content>
+      Graphics pipeline; Graphics hardware: Display devices, Input devices;
+      Raster Graphics: line and circle drawing algorithms; Windowing and
+      2D/3D clipping: Cohen and Sutherland line clipping, Cyrus Beck
+      clipping method; 2D and 3D Geometrical Transformations: scaling,
+      translation, rotation, reflection; Viewing Transformations: parallel and
+      perspective projection; Curves and Surfaces: cubic splines, Bezier
+      curves, B-splines, Parametric surfaces, Surface of revolution, Sweep
+      surfaces, Fractal curves and surfaces; Hidden line/surface removal
+      methods; illuminations model; shading: Gouraud, Phong; Introduction
+      to Ray-tracing; Animation; Programming practices with standard
+      graphics libraries like openGL.
+    </course_content>
+  </course>
+  
+  <course id="COL783">
+    <course_no>COL783</course_no>
+    <course_title>Digital Image Analysis</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(GV) for MCS</course_category_MCS>
+    <course_credits>4.5 credits (3-0-3)</course_credits>
+    <course_prereq><ir refid="COL106">COL106</ir>, <ir refid="ELL205">ELL205</ir> OR Equivalent</course_prereq>
+    <course_overlap><ir refid="ELL715">ELL715</ir></course_overlap>
+    <course_content>
+      Digital Image Fundamentals; Image Enhancement in Spatial Domain:
+      Gray Level Transformation, Histogram Processing, Spatial Filters;
+      Image Transforms: Fourier Transform and their properties, Fast Fourier
+      Transform, Other Transforms; Image Enhancement in Frequency
+      Domain; Color Image Processing; Image Warping and Restoration;
+      Image Compression; Image Segmentation: edge detection, Hough
+      transform, region based segmentation; Morphological operators;
+      Representation and Description; Features based matching and Bayes
+      classification; Introduction to some computer vision techniques:
+      Imaging geometry, shape from shading, optical flow; Laboratory
+      exercises will emphasize development and evaluation of image
+      processing methods.
+    </course_content>
+  </course>
+  
+  <course id="COL786">
+    <course_no>COL786</course_no>
+    <course_title>Advanced Functional Brain Imaging</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(DAAI and ITA) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Introduction to human Neuro-anatomy, Hodgkin Huxley model,
+      overview of brain imaging methods, introduction to magnetic
+      resonance imaging, detailed fMRI, fMRI data analysis methods,
+      general linear model, network analysis, machine learning based
+      methods of analysis.
+    </course_content>
+  </course>
+  
+  <course id="COL788">
+    <course_no>COL788</course_no>
+    <course_title>Advanced Topics in Embedded Computing</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(AES) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL216">COL216</ir> OR 
+          <ir refid="COL331">COL331</ir> OR Equivalent
+    </course_prereq>
+    <course_overlap><ir refid="ELL782">ELL782</ir></course_overlap>
+    <course_content>
+      Embedded Platforms , Embedded processor architectures, System
+      initialization, Embedded operating systems (linux) , DSP and graphics
+      acceleration, Interfaces, Device Drivers, Network, Security, Debug
+      support, Performance tuning.
+      The course would involve substantial programming assignments on
+      embedded platforms.
+    </course_content>
+  </course>
+  
+  <course id="COS799">
+    <course_no>COS799</course_no>
+    <course_title>Independent Study</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE for MCS</course_category_MCS>
+    <course_credits>3 credits (0-3-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The student will be tasked with certain reading assignments and 
+      related problem solving in a appropriate area of research in Computer 
+      Science under the overall guidance of a CSE faculty member. The work 
+      will be evaluated through term paper.
+    </course_content>
+  </course>
+  
+  <course id="COL812">
+    <course_no>COL812</course_no>
+    <course_title>System Level Design and Modelling</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(AES) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL719">COL719</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Embedded systems and system-level design, models of computation,
+      specification languages, hardware/software co-design, system
+      partitioning, application specific processors and memory, low power
+      design.
+    </course_content>
+  </course>
+  
+  <course id="COL818">
+    <course_no>COL818</course_no>
+    <course_title>Principles of Multiprocessor Systems</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(AES) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL216">COL216</ir>,
+  <ir refid="COL331">COL331</ir>, <ir refid="COL351">COL351</ir> OR Equivalent</course_prereq>
+    <course_overlap>
+    </course_overlap>
+    <course_content>
+      (i) Mutual Exclusion (ii) Coherence and Consistency (iii) Register
+      Constructions (iv) Power of Synchronization Operations (v) Locks and
+      Monitors (vi) Concurrent queues (vii) Futures and Work-Stealing (viii)
+      Barriers (ix) Basics of Transactional Memory (TM) (x) Regular Hardware
+      TMs (xi) Unbounded Hadware TMs (xii) Software TMs.
+    </course_content>
+  </course>
+  
+  <course id="COL819">
+    <course_no>COL819</course_no>
+    <course_title>Advanced Distributed Systems</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL331">COL331</ir> AND
+  <ir refid="COL334">COL334</ir> AND
+  <ir refid="COL380">COL380</ir> OR Equivalent
+    </course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Epidemic/Gossip based algorithms, Peer to peer networks, Distributed
+      hash tables, Synchronization, Mutual exclusion, Leader election,
+      Distributed fault tolerance, Large scale storage systems, Distributed
+      file systems, Design of social networking systems.
+    </course_content>
+  </course>
+  
+  <course id="COP820">
+    <course_no>COP820</course_no>
+    <course_title>Processing Design Laboratory</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51></course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE for MCS, JVL</course_category_MCS>
+    <course_credits>4 credits (0-0-8)</course_credits>
+    <course_prereq><ir refid="COL718">COL718</ir>
+    </course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      This is a pure laboratory course that invloves the following activities. Design of 
+      branch predictors, instruction fetch logic, Decode and rename logic, Instruction 
+      window and scheduler, Select logic, Load-square queue, ALUs and by-pass 
+      paths, Instruction commit logic, Misprediction and recovery techniques, 
+      Selective replay techniques
+    </course_content>
+  </course>
+  
+
+  <course id="COL821">
+    <course_no>COL821</course_no>
+    <course_title>Reconfigurable Computing</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(AES) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL719">COL719</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      FPGA architectures, CAD for FPGAs: overview, LUT mapping, timing
+      analysis, placement and routing, Reconfigurable devices - from fine-
+      grained to coarse-grained devices, Reconfiguration modes and multi-
+      context devices, Dynamic reconfiguration, Compilation from high level
+      languages, System level design for reconfigurable systems: heuristic
+      temporal partitioning and ILP-based temporal partitioning, Behavioral
+      synthesis, Reconfigurable example systems' tool chains.
+    </course_content>
+  </course>
+  
+  <course id="COL829">
+    <course_no>COL829</course_no>
+    <course_title>Advanced Computer Graphics</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(GV) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq><ir refid="COL781">COL781</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Rendering: Ray tracing, Radiosity methods, Global illumination models,
+      Shadow generation, Mapping, Anti-aliasing, Volume rendering,
+      Geometrical Modeling: Parametric surfaces, Implicit surfaces, Meshes,
+      Animation: spline driven, quarternions, articulated structures (forward
+      and inverse kinematics), deformation- purely geometric, physically-
+      based, Other advanced topics selected from research papers.
+    </course_content>
+  </course>
+  
+  <course id="COL830">
+    <course_no>COL830</course_no>
+    <course_title>Distributed Computing</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL226">COL226</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Models of Distributed Computing; Basic Issues: Causality, Exclusion,
+      Fairness, Independence, Consistency; Specification of Distributed
+      Systems: Transition systems, petri nets, process algebra properties:
+      Safety, Liveness, stability.
+    </course_content>
+  </course>
+  
+  <course id="COL831">
+    <course_no>COL831</course_no>
+    <course_title>Semantics of Programming Languages</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL226">COL226</ir>, <ir refid="COL352">COL352</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Study of operational, axiomatic and denotational semantics of
+      procedural languages; semantics issues in the design of functional and
+      logic programming languages, study of abstract data types.
+    </course_content>
+  </course>
+  
+  <course id="COL832">
+    <course_no>COL832</course_no>
+    <course_title>Proofs and Types</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL226">COL226</ir>, <ir refid="COL352">COL352</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Syntax and semantic foundations: Ranked algebras, homomorphisms,
+      initial algebras, congruences. First-order logic review: Soundness,
+      completeness, compactness. Herbrand models and Herbrand's
+      theorem, Horn-clauses and resolution. Natural deduction and the
+      Sequent calculus. Normalization and cut elimination. Lambda-calculus
+      and Combinatory Logic: syntax and operational semantics (beta-eta
+      equivalence), confluence and Church-Rosser property. Introduction
+      to Type theory: The simply-typed lambda-calculus, Intuitionistic type
+      theory. Curry-Howard correspondence. Polymorphism, algorithms
+      for polymorphic type inference, Girard and Reynolds' System F.
+      Applications: type-systems for programming languages; modules and
+      functors; theorem proving, executable specifications.
+    </course_content>
+  </course>
+  
+  <course id="COL851">
+    <course_no>COL851</course_no>
+    <course_title>Special Topics in Operating Systems</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL331">COL331</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      To provide insight into current research problems in the area of
+      operating systems. Topics may include, but are not limited to,
+      OS design, web servers, Networking stack, Virtualization, Cloud
+      Computing, Distributed Computing, Parallel Computing, Heterogeneous
+      Computing, etc.
+    </course_content>
+  </course>
+  
+  <course id="COL852">
+    <course_no>COL852</course_no>
+    <course_title>Special Topics in Compiler Design</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL728">COL728</ir>/<ir refid="COL729">COL729</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Special topic that focuses on state of the art and research problems
+      of importance in this area.
+    </course_content>
+  </course>
+  
+  <course id="COL859">
+    <course_no>COL859</course_no>
+    <course_title>Advanced Computer Graphics</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS> 
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Rendering: Ray tracing, Radiosity methods, Global illumination models,
+      Shadow generation, Mapping, Anti-aliasing, Volume rendering,
+      Geometrical Modeling: Parametric surfaces, Implicit surfaces,
+      Meshes, Animation: spline driven, quarternions, articulated structures
+      (forward and inverse kinematics), deformation -- purely geometric,
+      physically based, Other advanced topics selected from research papers.
+    </course_content>
+  </course>
+  
+  <course id="COL860">
+    <course_no>COL860</course_no>
+    <course_title>Special Topics in Parallel Computation</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH/SS) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The course will focus on research issues in areas like parallel
+      computation models, parallel algorithms, Parallel Computer
+      architectures and interconnection networks, Shared memory parallel
+      architectures and programming with OpenMP and Ptheards, Distributed
+      memory message-passing parallel architectures and programming,
+      portable parallel message-passing programming using MPI. This
+      will also include design and implementation of parallel numerical
+      and non-numerical algorithms for scientific and engineering, and
+      commercial applications. Performance evaluation and benchmarking
+      high-performance computers.
+    </course_content>
+  </course>
+  
+  <course id="COL861">
+    <course_no>COL861</course_no>
+    <course_title>Special Topics in Hardware Systems</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(AES) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Under this topic one of the following areas will be covered: Fault
+      Detection and Diagnosability. Special Architectures. Design Automation
+      Issues. Computer Arithmetic, VLSI.
+    </course_content>
+  </course>
+  
+  <course id="COL862">
+    <course_no>COL862</course_no>
+    <course_title>Special Topics in Software Systems</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Special topic that focuses on state of the art and research problems
+      of importance in this area.
+    </course_content>
+  </course>
+  
+  <course id="COL863">
+    <course_no>COL863</course_no>
+    <course_title>Special Topics in Theoretical Computer Science</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL351">COL351</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Under this topic one of the following areas will be covered: Design
+      and Analysis of Sequential and Parallel Algorithms. Complexity
+      issues, Trends in Computer Science Logic, Quantum Computing and
+      Bioinformatics, Theory of computability. Formal Languages. Semantics
+      and Verification issues.
+    </course_content>
+  </course>
+  
+  <course id="COL864">
+    <course_no>COL864</course_no>
+    <course_title>Special Topics in Artificial Intelligence</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(DAAI) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL333">COL333</ir> OR EQUIVALENT</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Potential topics or themes which may be covered (one topic per
+      offering) include: information extraction, industrial applications of
+      AI, advanced logic-based AI, Markov Decision Processes, statistical
+      relational learning, etc.
+    </course_content>
+  </course>
+  
+  <course id="COL865">
+    <course_no>COL865</course_no>
+    <course_title>Special Topics in Computer Applications</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(ITA) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq>Permission of the Instructor</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Special topic that focuses on special topics and research problems
+      of importance in this area.
+    </course_content>
+  </course>
+  
+  <course id="COL866">
+    <course_no>COL866</course_no>
+    <course_title>Special Topics in Algorithms</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL351">COL351</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The course will focus on specialized topics in areas like Computational
+      Topology, Manufacturing processes, Quantum Computing,
+      Computational Biology, Randomized algorithms and other research
+      intensive topics.
+    </course_content>
+  </course>
+  
+  <course id="COL867">
+    <course_no>COL867</course_no>
+    <course_title>Special Topics in High Speed Networks</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL334">COL334</ir> OR <ir refid="COL672">COL672</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The course will be delivered through a mix of lectures and paper
+      reading seminars on advanced topics in Computer Networks. Hands-
+      on projects will be conceptualized to challenge students to take
+      up current research problems in areas such as software defined
+      networking, content distribution, advanced TCP methodologies,
+      delay tolerant networking, data center networking, home networking,
+      green networking, clean state architecture for the Internet, Internet
+      of things, etc.
+    </course_content>
+  </course>
+  
+  <course id="COL868">
+    <course_no>COL868</course_no>
+    <course_title>Special topics in Database Systems</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(DAAI) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL334">COL334</ir>/<ir refid="COL672">COL672</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The contents would include specific advanced topics in Database
+      Management Systems in which research is currently going on in the
+      department. These would be announced every time the course is
+      offered.
+    </course_content>
+  </course>
+  
+  <course id="COL869">
+    <course_no>COL869</course_no>
+    <course_title>Special topics in Concurrency</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52> 
+    <course_category_MCS>PE(DAAI and ITA) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The course will focus on research issues in concurrent, distributed and
+      mobile computations. Some of the following topics will be covered:
+      Models of Concurrent, Distributed and Mobile computation. Process
+      calculi, Event Structures, Petri Nets an labeled transition systems.
+      Implementations of concurrent and mobile, distributed programming
+      languages. Logics and specification models for concurrent and mobile
+      systems.Verification techniques and algorithms for model checking.
+      Type systems for concurrent/mobile programming languages.
+      Applications of the above models and techniques.
+    </course_content>
+  </course>
+  
+  <course id="COL870">
+    <course_no>COL870</course_no>
+    <course_title>Special Topics in Machine Learning</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(DAAI) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL341">COL341</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Contents may vary based on the instructor's expertise and interests
+      within the broader area of Machine Learning. Example topics include
+      (but not limiting to) Statistical Relational Learning, Markov Logic,
+      Multiple Kernel Learning, Multi-agent Systems, Multi-Class Multi-label
+      Learning, Deep Learning, Sum-Product Networks, Active and Semi-
+      supervised Learning, Reinforcement Learning, Dealing with Very
+      High-Dimensional Data, Learning with Streaming Data, Learning under
+      Distributed Architecture.
+    </course_content>
+  </course>
+  
+  <course id="COL871">
+    <course_no>COL871</course_no>
+    <course_title>Special Topics in programming languages and Compilers</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL728">COL728</ir>/<ir refid="COL729">COL729</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Contents may vary based on the instructor's interests within the
+      broader area of Programming Languages and Compilers.
+    </course_content>
+  </course>
+  
+  <course id="COL872">
+    <course_no>COL872</course_no>
+    <course_title>Special Topics in Cryptography</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL759">COL759</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Contents may vary based on the instructor's interests within
+      the broader area of Cryptography. Examples include CCA secure
+      encryption, multiparty computation, leakage resilient cryptography,
+      broadcast encryption, fully homomorphic encryption, obfuscation,
+      functional encryption, zero knowledge, private information retrieval,
+      byzantine agreement, cryptography against extreme attacks etc.
+    </course_content>
+  </course>
+  
+  <course id="COL886">
+    <course_no>COL886</course_no>
+    <course_title>Special Topics in Operating Systems</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(SS) for MCS, PE for EI</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq><ir refid="COL759">COL759</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Special topic that focuses on the state of the art and research problems of 
+      importance in this area
+    </course_content>
+  </course>
+
+  <course id="COV876">
+    <course_no>COL886</course_no>
+    <course_title>Special Topics in Operating Systems</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq><ir refid="COL759">COL759</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Through the course students will (1) get exposure to fundamental 
+      concepts in building automated reasoning tools to support deployment of 
+      formal methods for software and cyber physical systems, (2) get an overview of 
+      the advance state of the art approaches towards building automated reasoning 
+      tools, (3) learn about foundational aspects so as to prepare them to pursue these 
+      topics and related literature independently for research and use in system design 
+      and other applications and (4) become aware of exciting new directions in 
+      research on software and system analysis, particularly techniques for 
+      automatically generating invariant properties.
+    </course_content>
+  </course>
+  
+  <course id="COV877">
+    <course_no>COV877</course_no>
+    <course_title>Special Module on Visual Computing</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(GV) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The course will be a seminar-based course where the instructor would
+      present topics in a selected theme in the area of visual computing
+      through research papers. Students will also be expected to participate
+      in the seminar.
+    </course_content>
+  </course>
+  
+  <course id="COV878">
+    <course_no>COV878</course_no>
+    <course_title>Special Module in Machine Learning</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(DAAI) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Contents may vary based on the instructor's expertise and interests
+      within the broader area of Machine Learning. Example topics include
+      (but not limiting to) Statistical Relational Learning, Markov Logic,
+      Multiple Kernel Learning, Multi-agent Systems, Multi-Class Multi-label
+      Learning, Deep Learning, Sum-Product Networks, Active and Semi-
+      supervised Learning, Reinforcement Learning, Dealing with Very
+      High-Dimensional Data, Learning with Streaming Data, Learning under
+      Distributed Architecture.
+    </course_content>
+  </course>
+  
+  <course id="COV879">
+    <course_no>COV879</course_no>
+    <course_title>Special Module in Financial Algorithms</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>1 credits (1-0-0)</course_credits>
+    <course_prereq><ir refid="MTL106">MTL106</ir> OR Equivalent</course_prereq>
+    <course_overlap><ir refid="MTL732">MTL732</ir> and <ir refid="MTL733">MTL733</ir></course_overlap>
+    <course_content>
+      Special module that focuses on special topics and research problems 
+      of importance in this area.
+    </course_content>
+  </course>
+  
+  <course id="COV880">
+    <course_no>COV880</course_no>
+    <course_title>Special Module in Parallel Computation</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq>Permission of Instructor</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Special module that focuses on special topics and research problems 
+      of importance in this area.
+    </course_content>
+  </course>
+  
+  <course id="COV881">
+    <course_no>COV881</course_no>
+    <course_title>Special Module in Hardware Systems</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(AES) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq>Permission of Instructor</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Special module that focuses on special topics and research problems
+      of importance in this area.
+    </course_content>
+  </course>
+  
+  <course id="COV882">
+    <course_no>COV882</course_no>
+    <course_title>Special Module in Software Systems</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Special module that focuses on special topics and research problems 
+      of importance in this area.
+    </course_content>
+  </course>
+  
+  <course id="COV883">
+    <course_no>COV883</course_no>
+    <course_title>Special Module in Theoretical Computer Science</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq><ir refid="COL351">COL351</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Special module that focuses on special topics and research problems 
+      of importance in this area.
+    </course_content>
+  </course>
+  
+  <course id="COV884">
+    <course_no>COV884</course_no>
+    <course_title>Special Module in Artificial Intelligence</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(DAAI) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq><ir refid="COL333">COL333</ir>/<ir refid="COL671">COL671</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Special module that focuses on special topics and research problems 
+      of importance in this area.
+    </course_content>
+  </course>
+  
+  <course id="COV885">
+    <course_no>COV885</course_no>
+    <course_title>Special Module in Computer Applications</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(ITA) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Special module that focuses on special topics and research problems 
+      of importance in this area.
+    </course_content>
+  </course>
+  
+  <course id="COV886">
+    <course_no>COV886</course_no>
+    <course_title>Special Module in Algorithms</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(TH) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq><ir refid="COL351">COL351</ir> OR Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Special module that focuses on special topics and research problems 
+      of importance in this area.
+    </course_content>
+  </course>
+  
+  <course id="COV887">
+    <course_no>COV887</course_no>
+    <course_title>Special Module in High Speed Networks</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq><ir refid="COL334">COL334</ir>/<ir refid="COL672">COL672</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The course will be delivered through a mix of lectures and paper 
+      reading seminars on advanced topics in Computer Networks. 
+      Students will be introduced to topics such as software defined 
+      networking, content distribution, advanced TCP methodologies, 
+      delay tolerant networking, data center networking, home 
+      networking, green networking, clean state architecture for the 
+      Internet, Internet of things, etc.
+    </course_content>
+  </course>
+  
+  <course id="COV888">
+    <course_no>COV888</course_no>
+    <course_title>Special Module in Database Systems</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE/PE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(DAAI and ITA) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq><ir refid="COL362">COL362</ir>/<ir refid="COL632">COL632</ir>/Equivalent</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Potential topics or themes which may be covered (one topic per 
+      offering) includes data mining, big data management, information 
+      retrieval and database systems, semantic web data management, etc.
+    </course_content>
+  </course>
+  
+  <course id="COV889">
+    <course_no>COV889</course_no>
+    <course_title>Special Module in Concurrency</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>PE/DE for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE(DAAI/ITA) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq><ir refid="MTL106">MTL106</ir> OR EQUIVALENT</course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Special module that focuses on special topics and research problems of importance in this area.
+    </course_content>
+  </course>
+   
+  <course id="COD891">
+    <course_no>COD891</course_no>
+    <course_title>Minor Project</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>PC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PC for MCS</course_category_MCS>
+    <course_credits>3 credits (0-0-6)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Research and development oriented projects based on problems of practical and theoretical interest. Evaluation done based on periodic presentations, student seminars, written reports, and evaluation of the developed system (if applicable). Students are generally expected to work towards the goals and milestones set for Minor Project COP891.
+    </course_content>
+  </course>
+  
+  <course id="COD892">
+    <course_no>COD892</course_no>
+    <course_title>M.Tech Project Part-I</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>PC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PC for MCS</course_category_MCS>
+    <course_credits>7 credits (0-0-14)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      It is expected that the problem specification and milestones to be achieved in solving the problem are clearly specified. Survey of the related area should be completed. This project spans also the course COP892. Hence it is expected that the problem specification and the milestones to be achieved in solving the problem are clearly specified.
+    </course_content>
+  </course>
+  
+  <course id="COD893">
+    <course_no>COD893</course_no>
+    <course_title>M.Tech Project Part-II</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51>PC for CS5</course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS>PE for MCS</course_category_MCS>
+    <course_credits>14 credits (0-0-28)</course_credits>
+    <course_prereq><ir refid="COD892">COD892</ir></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The student(s) who work on a project are expected to work towards the goals and milestones set in COP893. At the end there would be a demonstration of the solution and possible future work on the same problem. A dissertation outlining the entire problem, including a survey of literature and the various results obtained along with their solutions is expected to be produced by each student.
+    </course_content>
+  </course>
+
+  <course id="COD895">
+    <course_no>COD895</course_no>
+    <course_title>MS Research Project</course_title>
+    <course_category_CS1></course_category_CS1>
+    <course_category_CS51></course_category_CS51>
+    <course_category_CS52></course_category_CS52>
+    <course_category_MCS></course_category_MCS>
+    <course_credits>36 credits (0-0-72)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+    </course_content>
+  </course>
+  
+  <course id="SIL765">
+    <course_no>SIL765</course_no>
+    <course_title>Networks and System Security</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52>PE for CS5</course_category_CS52>
+    <course_category_MCS>PE(SS) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      The goal of this course is to introduce challenges in securing computer
+      systems and networks. We will discuss various types of vulnerabilities
+      in existing software interfaces, such as buffer overflows, unsafe libc
+      functions, filesystem design issues, etc. We will also discuss modern-
+      day defenses against attacks exploiting these vulnerabilities. In
+      network security, we will discuss security problems in network protocols
+      and routing, such as sniffing, denial of service, viruses, worms, etc.
+      and defenses against them. The course will involve reading research
+      papers on relevant topics, programming assignments, and projects.
+    </course_content>
+  </course>
+  
+  <course id="SIL769">
+    <course_no>SIL769</course_no>
+    <course_title>Internet Traffic -Measurement, Modeling and Analysis</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52>PE for CS5</course_category_CS52>
+    <course_category_MCS>PE(SS and ITA) for MCS</course_category_MCS>
+    <course_credits>4 credits (3-0-2)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Internet architecture: overview of TCP/IP protocol stack. Mathematics
+      for studying the Internet: Review of basic probability and
+      statistics, analytic modeling approaches. Practical issues in Internet
+      Measurements: Challenges, tools and techniques for measuring
+      performance. Internet Traffic Characterization: Poisson models for
+      Internet traffic, self-similarity in network traffic. Web Performance:
+      workload characterization, caching, content distribution networks.
+      Multimedia Systems: Video-on-Demand, IP-TV, Peer-to-Peer file
+      sharing, Peer-to-Peer Streaming. Social Networks. Network Security.
+    </course_content>
+  </course>
+  
+  <course id="SIL801">
+    <course_no>SIL801</course_no>
+    <course_title>Special Topics in Multimedia System</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52>PE for CS5</course_category_CS52>
+    <course_category_MCS>PE(GV and ITA) for MCS</course_category_MCS>  
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Content of this course, depending upon the teacher, will be focused
+      on some aspect(s) of multimedia systems like content based retrieval,
+      multimedia communication, compression techniques, speech and
+      audio technology, etc.
+    </course_content>
+  </course>
+  
+  <course id="SIL802">
+    <course_no>SIL802</course_no>
+    <course_title>Special Topics in Web Based Computing</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52>PE for CS5</course_category_CS52>
+    <course_category_MCS>PE(ITA) for MCS</course_category_MCS>
+    <course_credits>3 credits (3-0-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Content of this course, depending upon the teacher, will be focused
+      on some aspect(s) of web based computing like sematic web, web
+      based distributed computing, search methods, etc.
+    </course_content>
+  </course>
+  
+  <course id="SIV813">
+    <course_no>SIV813</course_no>
+    <course_title>Applications of Computer in Medicines</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52>PE for CS5</course_category_CS52>
+    <course_category_MCS>PE(ITA) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      This course will consist of 14 lecture-hours that focus on information
+      and communication technologies (ICT) that are being developed
+      and used in medical education and clinical practice today. Various
+      technologies ranging from computer aided instruction (CAI),
+      simulations, and networked applications at one end to electronic
+      medical records (EMR), telemedicine, and robotic surgery at the other
+      end will be described. The process of research, development, and
+      evaluation in the designing and making of these applications and tools
+      will be detailed. Writing assignments, creative thinking, and interactive
+      discussions will form an integral part of this course.
+    </course_content>
+  </course>
+  
+  <course id="SIV861">
+    <course_no>SIV861</course_no>
+    <course_title>Information and Comm Technologies for Development</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52>PE for CS5</course_category_CS52>
+    <course_category_MCS>PE(ITA) for MCS</course_category_MCS>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Notion of appropriate technology; case studies of ICTD projects
+      such as KioskNet, WiLDNet (Wireless Long Distance Networks), AIR
+      (Advanced Interactive Radio), Spoken Web, GRINS (Gramin Radio
+      Inter Networking System), Digital Green; design principles to be kept
+      in mind; evaluation methodologies.
+    </course_content>
+  </course>
+  
+  <course id="SIV864">
+    <course_no>SIV864</course_no>
+    <course_title>Special Module on Media Processing and Communication</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52>PE for CS5</course_category_CS52>
+    <course_category_MCS>PE(ITA) for MCS</course_category_MCS>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_content>
+      Communication today has rich multimedia contents. Under the varying
+      bandwidth attention is required for appropriate processing of the
+      media contents satisfying desired quality of service. This course will
+      focus on bringing the two broad areas of multimedia processing and
+      communication together. In media processing fundamental concepts
+      of media processing and compression will be introduced with exposure
+      to current techniques and standards. In communication protocols and
+      algorithms for both wired and wireless networks will be discussed in
+      relation to multimedia communication.
+    </course_content>
+  </course>
+  
+  <course id="SIV871">
+    <course_no>SIV871</course_no>
+    <course_title>Special Module in Computational Neuroscience</course_title>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_content>
+      Special module that focuses on research problems of importance in
+      this area of Neuroscience from a computational perspective. Specific
+      coverage will vary with each offering, and may include project work
+      and design / case studies. Topics for each offering of the course will
+      be separately listed.
+    </course_content>
+  </course>
+  
+  <course id="SID880">
+    <course_no>SID880</course_no>
+    <course_title>Minor Project in Information Technology</course_title>
+    <course_credits>3 credits (0-0-6)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+    </course_content>
+  </course>
+  
+  <course id="SIV889">
+    <course_no>SIV889</course_no>
+    <course_title>Special Module in Human Computer Interface</course_title>
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      Special module that focuses on research problems of importance
+      in this area from a computational and design perspective. Specific
+      coverage will vary with each offering, and may include project work
+      and design / case studies. Topics for each offering of the course will
+      be separately listed.
+    </course_content>
+  </course>
+  
+  <course id="SID890">
+    <course_no>SID890</course_no>
+    <course_title>Major Project (SIY)</course_title>
+    <course_credits>40 credits (0-0-80)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+    </course_content>
+  </course>
+  
+  <course id="SIV895">
+    <course_no>SIV895</course_no>
+    <course_title>Special Module on Intelligent Information Processing</course_title>
+    <course_category_CS1>DE for CS1</course_category_CS1>
+    <course_category_CS51>DE for CS5</course_category_CS51>
+    <course_category_CS52>PE for CS5</course_category_CS52>
+    <course_category_MCS>PE(ITA) for MCS</course_category_MCS> 
+    <course_credits>1 credit (1-0-0)</course_credits>
+    <course_prereq></course_prereq>
+    <course_overlap></course_overlap>
+    <course_content>
+      This course will focus on presenting conclave of methods which
+      are being practiced for intelligent computing -- learning techniques,
+      classification methods, embedding intelligence, neural networks, soft
+      computing and evolutionally methods. Emphasis will also be given on
+      the variety of multidisciplinary applications of such techniques.
+    </course_content>
+  </course>
+</CSITcourses>
