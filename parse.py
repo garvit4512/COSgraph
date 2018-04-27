@@ -42,20 +42,26 @@ def get_edges():
 	tree = ET.parse('cos.xml')
 	cs_root = tree.getroot()
 	courses = {}
+	courses_list = []
 	course_prereq_dict = {}
+	course_prereq_list = []
 	course_overlap_dict = {}
+	course_overlap_list = []
 	for course in cs_root:
 		pre_req = course.find('course_prereq')
 		overlap = course.find('course_overlap')
 		course_id = course.attrib['id']
 		courses[course_id] = 1
+		courses_list.append(course_id)
 		course_prereq_dict[course_id] = []
 		course_overlap_dict[course_id] = []		 
 		for pre_reqs in pre_req.findall('ir'):
 			course_prereq_dict[course_id].append(pre_reqs.attrib['refid'])
+			course_prereq_list.append((pre_reqs.attrib['refid'], course_id))
 	
 		for overlaps in overlap.findall('ir'):
 			course_overlap_dict[course_id].append(overlaps.attrib['refid'])
+			course_overlap_list.append((course_id, overlaps.attrib['refid']))
 		
 	print len(course_prereq_dict),len(course_overlap_dict)	
 	# Dictionary for pre requisite and overlapping courses created 
@@ -65,6 +71,7 @@ def get_edges():
 		for prereq_course in course_prereq_dict[course]:
 			if prereq_course not in courses:
 				courses[prereq_course] = 1
+				courses_list.append(prereq_course)
 				cs_root = add_course(prereq_course,cs_root)
 				print prereq_course, course_prereq_dict[course]
 	
@@ -72,12 +79,13 @@ def get_edges():
 		for overlap_course in course_overlap_dict[course]:
 			if overlap_course not in courses:
 				courses[overlap_course] = 1
+				courses_list.append(overlap_course)
 				cs_root = add_course(overlap_course,cs_root)
 				print overlap_course, course_overlap_dict[course]
 	
 	# Update the xml file with the new courses
 	cs_root = indent(cs_root)
 	tree.write("cos.xml",encoding='UTF-8', xml_declaration=True)
-	return course_prereq_dict, course_overlap_dict
+	return courses_list, course_prereq_list, course_overlap_list
 
-course_prereq_dict, course_overlap_dict = get_edges()
+# course_prereq_dict, course_overlap_dict = get_edges()
