@@ -109,8 +109,8 @@
     <course_category_CS52></course_category_CS52>
     <course_category_MCS></course_category_MCS>
     <course_credits>4 credits (3-0-2)</course_credits>
-    <course_prereq>ELL201</course_prereq>
-    <course_overlap>ELL305</course_overlap>
+    <course_prereq><ir refid="ELL201">ELL201</ir></course_prereq>
+    <course_overlap><ir refid="ELL305">ELL305</ir></course_overlap>
     <course_content>
       History of computers, Boolean logic and number systems, Assembly
       language programming, ARM assembly language, Computer arithmetic,
@@ -209,7 +209,7 @@
     <course_category_CS52></course_category_CS52>
     <course_category_MCS></course_category_MCS>
     <course_credits>2 credits (1-0-2)</course_credits>
-    <course_prereq>EC - 60</course_prereq>
+    <course_prereq><ir refid="EC60">EC - 60</ir></course_prereq>
     <course_overlap></course_overlap>
     <course_content>
       The course would consist of talks by working professionals from
@@ -226,7 +226,7 @@
     <course_category_CS52></course_category_CS52>
     <course_category_MCS></course_category_MCS>
     <course_credits>3 credits (0-3-0)</course_credits>
-    <course_prereq>EC - 60</course_prereq>
+    <course_prereq><ir refid="EC60">EC - 60</ir></course_prereq>
     <course_overlap></course_overlap>
     <course_content>
       Research oriented activities or study of subjects outside regular course
@@ -269,7 +269,7 @@
     <course_credits>5 credits (3-0-4)</course_credits>
     <course_prereq><ir refid="COL106">COL106</ir> AND
 	<ir refid="COP290">COP290</ir></course_prereq>
-    <course_overlap>ELL405</course_overlap>
+    <course_overlap><ir refid="ELL405">ELL405</ir></course_overlap>
     <course_content>
       Primary UNIX abstractions: threads, address spaces, filesystem,
       devices, interprocess communication; Introduction to hardware
@@ -467,7 +467,7 @@
     <course_category_CS52></course_category_CS52>
     <course_category_MCS></course_category_MCS>
     <course_credits>6 credits (0-0-12)</course_credits>
-    <course_prereq>EC 100</course_prereq>
+    <course_prereq><ir refid="EC100">EC 100</ir></course_prereq>
     <course_overlap></course_overlap>
     <course_content>
       This project spans also the course COD494. Hence it is expected that
@@ -484,7 +484,7 @@
     <course_category_CS52></course_category_CS52>
     <course_category_MCS></course_category_MCS>
     <course_credits>8 credits (0-0-16)</course_credits>
-    <course_prereq>EC 100, <ir refid="COD492">COD492</ir></course_prereq>
+    <course_prereq><ir refid="EC100">EC 100</ir>, <ir refid="COD492">COD492</ir></course_prereq>
     <course_overlap></course_overlap>
     <course_content>
       The student(s) who work on a project are expected to work towards
@@ -824,7 +824,7 @@
     <course_category_CS52></course_category_CS52>    
     <course_category_MCS></course_category_MCS>
     <course_credits>3 credits (0-0-6)</course_credits>
-    <course_prereq>EC 75</course_prereq>
+    <course_prereq><ir refid="EC75">EC 75</ir></course_prereq>
     <course_overlap></course_overlap>
     <course_content>
       Research and development projects based on problems of
@@ -1084,9 +1084,7 @@
     <course_credits>3 credits (3-0-0)</course_credits>
     <course_prereq><ir refid="COL351">COL351</ir> AND
   <ir refid="MTL106">MTL106</ir> OR Equivalent</course_prereq>
-    <course_overlap>
-           <ir refid="MAL730">MAL730</ir>
-    </course_overlap>
+    <course_overlap><ir refid="MAL730">MAL730</ir></course_overlap>
     <course_content>
       Part 1: Foundations: Perfect secrecy and its limitations, computational
       security, pseudorandom generators and one time encryption,
@@ -1129,9 +1127,7 @@
     <course_category_MCS>PE(DAAI and ITA) for MCS</course_category_MCS>
     <course_credits>4 credits (3-0-2)</course_credits>
     <course_prereq><ir refid="COL106">COL106</ir> OR Equivalent</course_prereq>
-    <course_overlap>
-           <ir refid="MTL782">MTL782</ir>
-    </course_overlap>
+    <course_overlap><ir refid="MTL782">MTL782</ir></course_overlap>
     <course_content>
       Association rule-mining, FP-tree, Prefix-span, Multi-support rule mining, 
       Frequent subgraph mining (gSpan and FSG), Clustering (Agglomerative clustering, 
@@ -1240,9 +1236,7 @@
     <course_category_CS52></course_category_CS52>
     <course_category_MCS>PE(DAAI) for MCS</course_category_MCS>
     <course_prereq><ir refid="COL106">COL106</ir> OR Equivalent</course_prereq>
-    <course_overlap>
-      <ir refid="MTL785">MTL785</ir>
-    </course_overlap>
+    <course_overlap><ir refid="MTL785">MTL785</ir></course_overlap>
     <course_content>
       NLP concepts: Tokenization, lemmatization, part of speech tagging,
       noun phrase chunking, named entity recognition, coreference
@@ -1263,7 +1257,7 @@
     <course_category_CS52></course_category_CS52> 
     <course_category_MCS>PE(DAAI) for MCS</course_category_MCS>
     <course_credits>4 credits (3-0-2)</course_credits>
-    <course_prereq>MTL106 OR Equivalent</course_prereq>
+    <course_prereq><ir refid="MTL106">MTL106</ir> OR Equivalent</course_prereq>
     <course_overlap><ir refid="COL341">COL341</ir>,
              <ir refid="ELL784,">ELL784</ir>,
              <ir refid="ELL888">ELL888</ir>
@@ -1317,7 +1311,7 @@
     <course_category_CS52></course_category_CS52> 
     <course_category_MCS>PE(GV) for MCS</course_category_MCS>
     <course_credits>4 credits (3-0-2)</course_credits>
-    <course_prereq>EC 80</course_prereq>
+    <course_prereq><ir refid="EC80">EC 80</ir></course_prereq>
     <course_overlap><ir refid="ELL793">ELL793</ir></course_overlap>
     <course_content>
       Camera models. Calibration, multi-views projective geometry and
@@ -1466,8 +1460,7 @@
     <course_credits>4 credits (3-0-2)</course_credits>
     <course_prereq><ir refid="COL216">COL216</ir>,
   <ir refid="COL331">COL331</ir>, <ir refid="COL351">COL351</ir> OR Equivalent</course_prereq>
-    <course_overlap>
-    </course_overlap>
+    <course_overlap></course_overlap>
     <course_content>
       (i) Mutual Exclusion (ii) Coherence and Consistency (iii) Register
       Constructions (iv) Power of Synchronization Operations (v) Locks and
