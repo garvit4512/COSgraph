@@ -1,0 +1,219 @@
+strict digraph  {
+	COL100 -> COL106	 [color=blue];
+	COL100 -> COL215	 [color=blue];
+	COL106 -> COL226	 [color=blue];
+	COL106 -> COL331	 [color=blue];
+	COL106 -> COL333	 [color=blue];
+	COL106 -> COL334	 [color=blue];
+	COL106 -> COL341	 [color=blue];
+	COL106 -> COL351	 [color=blue];
+	COL106 -> COL362	 [color=blue];
+	COL106 -> COL380	 [color=blue];
+	COL106 -> COL702	 [color=blue];
+	COL106 -> COL703	 [color=blue];
+	COL106 -> COL722	 [color=blue];
+	COL106 -> COL726	 [color=blue];
+	COL106 -> COL730	 [color=blue];
+	COL106 -> COL740	 [color=blue];
+	COL106 -> COL761	 [color=blue];
+	COL106 -> COL765	 [color=blue];
+	COL106 -> COL770	 [color=blue];
+	COL106 -> COL772	 [color=blue];
+	COL106 -> COL781	 [color=blue];
+	COL106 -> COL783	 [color=blue];
+	COL202 -> COL352	 [color=blue];
+	COL202 -> MTL180	 [color=red,
+		dir=none];
+	COL215 -> COP315	 [color=blue];
+	COL215 -> COL719	 [color=blue];
+	COL215 -> ELL201	 [color=red,
+		dir=none];
+	COL216 -> COP315	 [color=blue];
+	COL216 -> COL334	 [color=blue];
+	COL216 -> COL718	 [color=blue];
+	COL216 -> COL728	 [color=blue];
+	COL216 -> COL729	 [color=blue];
+	COL216 -> COL788	 [color=blue];
+	COL216 -> COL818	 [color=blue];
+	COL216 -> ELL305	 [color=red,
+		dir=none];
+	COL226 -> COL728	 [color=blue];
+	COL226 -> COL729	 [color=blue];
+	COL226 -> COL740	 [color=blue];
+	COL226 -> COL750	 [color=blue];
+	COL226 -> COL830	 [color=blue];
+	COL226 -> COL831	 [color=blue];
+	COL226 -> COL832	 [color=blue];
+	COP290 -> COL331	 [color=blue];
+	COD300;
+	COD310;
+	COL331 -> COL380	 [color=blue];
+	COL331 -> COL730	 [color=blue];
+	COL331 -> COL732	 [color=blue];
+	COL331 -> COL733	 [color=blue];
+	COL331 -> COL788	 [color=blue];
+	COL331 -> COL818	 [color=blue];
+	COL331 -> COL819	 [color=blue];
+	COL331 -> COL851	 [color=blue];
+	COL331 -> ELL405	 [color=red,
+		dir=none];
+	COL333 -> COL770	 [color=red,
+		dir=none];
+	COL333 -> COL864	 [color=blue];
+	COL333 -> COV884	 [color=blue];
+	COL333 -> COL671	 [color=red,
+		dir=none];
+	COL333 -> ELL789	 [color=red,
+		dir=none];
+	COL334 -> COL724	 [color=blue];
+	COL334 -> COL768	 [color=blue];
+	COL334 -> COL819	 [color=blue];
+	COL334 -> COL867	 [color=blue];
+	COL334 -> COL868	 [color=blue];
+	COL334 -> COV887	 [color=blue];
+	COL334 -> ELL402	 [color=red,
+		dir=none];
+	COL341 -> COL870	 [color=blue];
+	COL341 -> ELL409	 [color=red,
+		dir=none];
+	COL341 -> ELL784	 [color=red,
+		dir=none];
+	COL351 -> COL380	 [color=blue];
+	COL351 -> COL751	 [color=blue];
+	COL351 -> COL752	 [color=blue];
+	COL351 -> COL754	 [color=blue];
+	COL351 -> COL756	 [color=blue];
+	COL351 -> COL757	 [color=blue];
+	COL351 -> COL758	 [color=blue];
+	COL351 -> COL759	 [color=blue];
+	COL351 -> COL818	 [color=blue];
+	COL351 -> COL863	 [color=blue];
+	COL351 -> COL866	 [color=blue];
+	COL351 -> COV883	 [color=blue];
+	COL351 -> COV886	 [color=blue];
+	COL351 -> MTL342	 [color=red,
+		dir=none];
+	COL352 -> COL750	 [color=blue];
+	COL352 -> COL753	 [color=blue];
+	COL352 -> COL831	 [color=blue];
+	COL352 -> COL832	 [color=blue];
+	COL352 -> MTL383	 [color=red,
+		dir=none];
+	COL362 -> COL762	 [color=blue];
+	COL362 -> COV888	 [color=blue];
+	COL362 -> MTL710	 [color=red,
+		dir=none];
+	COL380 -> COL730	 [color=red,
+		dir=none];
+	COL380 -> COL819	 [color=blue];
+	COL380 -> MTL765	 [color=red,
+		dir=none];
+	COD490;
+	COD492 -> COD494	 [color=blue];
+	COP701;
+	COL703 -> MTL747	 [color=red,
+		dir=none];
+	COL718 -> COP820	 [color=blue];
+	COL719 -> COL812	 [color=blue];
+	COL719 -> COL821	 [color=blue];
+	COL726 -> MTL704	 [color=red,
+		dir=none];
+	COL728 -> COL852	 [color=blue];
+	COL728 -> COL871	 [color=blue];
+	COL729 -> COL728	 [color=red,
+		dir=none];
+	COL729 -> COL852	 [color=blue];
+	COL729 -> COL871	 [color=blue];
+	COP745;
+	COL751 -> MTL468	 [color=red,
+		dir=none];
+	COL756 -> MTL103	 [color=red,
+		dir=none];
+	COL756 -> MTL704	 [color=red,
+		dir=none];
+	COL759 -> COL872	 [color=blue];
+	COL759 -> COL886	 [color=blue];
+	COL759 -> COV876	 [color=blue];
+	COL759 -> MAL730	 [color=red,
+		dir=none];
+	COL761 -> MTL782	 [color=red,
+		dir=none];
+	COL770 -> COL333	 [color=red,
+		dir=none];
+	COL770 -> COL770	 [color=red,
+		dir=none];
+	COL770 -> ELL789	 [color=red,
+		dir=none];
+	COL772 -> MTL785	 [color=red,
+		dir=none];
+	COL774 -> COL341	 [color=red,
+		dir=none];
+	COL774 -> "ELL784,"	 [color=red,
+		dir=none];
+	COL774 -> ELL888	 [color=red,
+		dir=none];
+	COL780 -> ELL793	 [color=red,
+		dir=none];
+	COL781 -> COL829	 [color=blue];
+	COL781 -> ELL792	 [color=red,
+		dir=none];
+	COL783 -> ELL715	 [color=red,
+		dir=none];
+	COL786;
+	COL788 -> ELL782	 [color=red,
+		dir=none];
+	COS799;
+	COL859;
+	COL860;
+	COL861;
+	COL862;
+	COL865;
+	COL869;
+	COV877;
+	COV878;
+	COV879 -> MTL732	 [color=red,
+		dir=none];
+	COV879 -> MTL733	 [color=red,
+		dir=none];
+	COV880;
+	COV881;
+	COV882;
+	COV885;
+	COD891;
+	COD892 -> COD893	 [color=blue];
+	COD895;
+	SIL765;
+	SIL769;
+	SIL801;
+	SIL802;
+	SIV813;
+	SIV861;
+	SIV864;
+	SIV871;
+	SID880;
+	SIV889;
+	SID890;
+	SIV895;
+	MTL106 -> COL341	 [color=blue];
+	MTL106 -> COL759	 [color=blue];
+	MTL106 -> COL774	 [color=blue];
+	MTL106 -> COL776	 [color=blue];
+	MTL106 -> COV879	 [color=blue];
+	MTL106 -> COV889	 [color=blue];
+	COL672 -> COL867	 [color=blue];
+	COL672 -> COL868	 [color=blue];
+	COL672 -> COV887	 [color=blue];
+	CSL362 -> COL760	 [color=blue];
+	EC60 -> COR310	 [color=blue];
+	EC60 -> COS310	 [color=blue];
+	COL705 -> COL753	 [color=blue];
+	COL671 -> COV884	 [color=blue];
+	EC75 -> COD745	 [color=blue];
+	ELL201 -> COL216	 [color=blue];
+	ELL205 -> COL783	 [color=blue];
+	EC80 -> COL780	 [color=blue];
+	COL632 -> COV888	 [color=blue];
+	EC100 -> COD492	 [color=blue];
+	EC100 -> COD494	 [color=blue];
+	ELL100 -> COL215	 [color=blue];
+}
