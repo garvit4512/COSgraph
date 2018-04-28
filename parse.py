@@ -85,7 +85,11 @@ def get_edges():
 	
 	# Update the xml file with the new courses
 	cs_root = indent(cs_root)
-	tree.write("cos.xml",encoding='UTF-8', xml_declaration=True)
+
+	f = open('cos.xml')
+	f.write('<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="cos.xsl"?>'.encode('utf8'))
+	tree.write(f,'utf8')
+	
 	return courses_list, course_prereq_list, course_overlap_list
 
 # course_prereq_dict, course_overlap_dict = get_edges()
