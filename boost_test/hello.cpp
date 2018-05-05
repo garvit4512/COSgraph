@@ -1,6 +1,11 @@
+#include "hello.h"
+
+
 char const* greet(char* s)
 {
-   return "hello, world";
+	praneet a;
+	a.t = 50;
+	greete(a);
 }
 
 #include <boost/python.hpp>
